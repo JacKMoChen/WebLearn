@@ -15,12 +15,12 @@
 </head>
 
 <body>
-    <form>
+    <form action="https://www.baidu.com">
     <fieldset>
         <legend>必填信息</legend>
         <div>
             <span>手机:</span>
-            <input type="text" >
+            <input type="text" maxlength="11" placeholder="请您输入手机号" name="phone">
         </div>
     
         <div> 
@@ -36,7 +36,10 @@
 
     <fieldset>
             <legend>选填信息</legend>
-
+            <div>
+                <span>照片:</span>
+                <input type="file">
+            </div>
             <div>
                 <span>性别:</span>
                 <input type="radio" name="sex" value="男">
@@ -65,7 +68,7 @@
             </div>
     </fieldset>
   <input type="reset" value="重置">
-  <input type="submit" value="注册">
+  <input type="button" value="注册">
 </form>
 </body>
 
