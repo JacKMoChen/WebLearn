@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            width: 500px;
+        }
+        div span:hover{
+            background-color: red;
+        }
+        a{
+            display: block;/*块级属性*/
+            /* display: inline;行内属性 */
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <form action="https://www.baidu.com">
+    <fieldset>
+        <legend>必填信息</legend>
+        <div>
+            <span>手机:</span>
+            <input type="text" maxlength="11" placeholder="请您输入手机号" name="phone">
+        </div>
+        <div> 
+            <span>密码:</span>
+            <input type="password" name="pwd">
+        </div>
+    </fieldset>
+  <input type="reset" >
+  <input type="submit">
+  <a>百度百度</a>
+</form>
+</body>
+
+</html>
