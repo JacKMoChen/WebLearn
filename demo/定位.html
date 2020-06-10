@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 子绝对定位，父级相对定位 */
+        .box{
+            position: relative;
+            width: 310px;
+			height: 190px;
+            padding: 10px;
+            border: 1px solid #cccccc;
+            margin: 100px auto;
+        }
+        .top{
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .bottom{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+   <div class="box">
+        <img src="img/top_tu.gif" alt="" class="top">
+        <img src="img/adv.jpg" alt="">
+        <img src="img/br.gif" alt="" class="bottom">
+   </div>
+</body>
+</html>
