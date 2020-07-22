@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            .box{
+                position: relative;
+                width: 100px;
+                height: 100px;
+                margin: 100px auto;
+            }
+
+            .box img{
+                width: 100px;
+                height: 100px;
+            }
+
+            .mask{
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100px;
+                height: 100px;
+                background: rgba(0, 0, 0,.3) url("img/arr.png") no-repeat center center;
+            }
+            .box a:hover .mask{
+                display: block;
+            }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <a href="#">
+            <div class="mask"></div>
+        <img src="img/pic1.jpg" alt="">
+        </a>
+    </div>
+</body>
+</html>
