@@ -1,0 +1,132 @@
+/*公共样式*/
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?7kkyc2');
+    src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+    url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+    url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.fr .icomoon {
+	font-family: 'icomoon';
+	font-size: 16px;
+	line-height: 26px;
+}
+/*版心*/
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.style-red {
+	color: #c81623;
+}
+
+.spacer {
+	width: 1px;
+	height: 12px;
+	background-color: #666;
+	margin: 9px 12px 0;
+}
+
+/*顶部快捷导航*/
+.shortcut {
+	height: 31px;
+	background-color: #f1f1f1;
+	line-height: 31px;
+}
+
+.shortcut li {
+	float: left;
+}
+
+.header {
+	position: relative;
+	height: 105px;
+}
+.logo {
+	width: 175px;
+	height: 56px;
+	position: absolute;
+	top: 25px;
+	left: 0px;
+}
+.logo a {
+	display: block;
+	width: 175px;
+	height: 56px;
+	background:url(../img/logo.png) no-repeat;
+	/* 隐藏文字 */
+	/* text-indent: -100px;
+	overflow: hidden; */
+
+	font-size: 0px;
+}
+
+.search {
+	position: absolute;
+	top: 25px;
+	left: 343px;
+}
+
+.search .text {
+	float: left;
+	width: 445px;
+	height: 32px;
+	padding-left: 10px;
+	border: 2px solid #b1191a;
+	color: #ccc;
+}
+
+.search .btn {
+	float: left;
+	width: 82px;
+	height: 36px;
+	background-color: #b1191a;
+	border: 0;
+	font-size: 16px;
+	color: #fff;
+}
+
+.hotwords {
+	position: absolute;
+	top: 65px;
+	left: 343px;
+}
+
+.hotwords a {
+	margin: 0 8px;
+}
+
+.shopcar {
+	position: absolute;
+	top: 25px;
+	right: 64px;
+	width: 138px;
+	height: 34px;
+	border: 1px solid #dfdfdf;
+	background-color: #f7f7f7;
+	line-height: 34px;
+	text-align: center;
+}
+
+.car {
+	font-family: 'icomoon';
+	color: #da5555;
+}
+
+.arrow{
+	font-family: 'icomoon';
+	margin-left: 5px;
+}
+
+
