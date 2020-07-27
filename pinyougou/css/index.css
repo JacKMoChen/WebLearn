@@ -264,6 +264,13 @@
     text-align: center;
 }
 
+.box-bd img {
+    transition: all 0.5s;
+}
+.box-bd img:hover {
+    margin-left: 8px;
+}
+
 .fixedtool {
     position: fixed;
     top: 300px;
